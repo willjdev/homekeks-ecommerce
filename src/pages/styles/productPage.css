@@ -1,0 +1,145 @@
+
+/*----  PRODUCT PAGES  ----*/
+
+.products-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+
+.title-box {
+    height: 10vh;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: flex-end;
+    width: auto;
+    border-bottom: 1px solid rgb(56, 56, 56);
+}
+
+.product-title {
+    font-size: 7vw;
+    font-weight: 700;   
+}
+
+.product-card-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* ----  CONTACT PAGE  ---- */
+
+.contact-container {
+    border: 1px solid blue;
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.left-contact {
+    width: 80%;
+    height: 44%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(85, 84, 84, 0.8);
+}
+
+.contact-data {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 68%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    gap: 20%;
+}
+
+.contact-data h1 {
+    text-align: center;
+    font-size: 1.42rem;
+}
+
+.contact-data h2 {
+    font-size: 1.12rem;
+    font-weight: 600;
+}
+
+.contact-data span {
+    font-weight: 500;
+}
+
+.contact-icons {
+    width: 100%;
+    height: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 14px;
+    gap: 5%;
+}
+
+.contact-icons svg {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.right-contact {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.right-contact p {
+    font-size: 2.4rem;
+    text-align: center;
+    font-weight: 700;
+    color: #254494;
+    padding: 10px;
+}
+
+@media screen and (min-width: 1280px) {
+
+
+    .title-box {
+        height: 12.5vh;
+    }
+    
+    .product-title {
+        font-size: 3.5vw;
+    }
+
+    .product-card-container {
+        justify-content: center;
+        gap: 4rem;
+        margin-top: 2.5%;
+    }
+
+}
+
+@media screen and (min-width: 1441px) {
+    .title-box {
+        height: 15.5vh;
+    }
+
+}

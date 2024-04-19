@@ -1,0 +1,167 @@
+.complete-buy-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.confirm-order-box {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    padding-left: 10px;
+    margin-top: 1rem;
+}
+
+.order-form {
+    width: 90%;
+    height: auto;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-item {
+    /* border: 1px solid red; */
+    margin-bottom: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    gap: .4em 
+}
+
+.form-item label {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.form-item input {
+    height: 1.9rem;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid rgb(108, 108, 108);
+    padding-left: 7px;
+}
+
+.form-item input:focus {
+    outline: none;
+}
+
+.form-item textarea {
+    width: 100%;
+}
+
+.form-item textarea:focus {
+    outline: none;
+}
+
+.send-button {
+    width: 90%;
+    height: 2rem;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.send-button:hover {
+    cursor: pointer;
+}
+
+.send-button:first-of-type {
+    background-color: #4FCE5D;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    gap: 7px;
+}
+
+.back-button {
+    width: 90%;
+    height: 2rem;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    background-color: #254494;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+@media screen and (max-width: 370px) {
+    .confirm-order-box h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .confirm-order-box {
+        width: 90%;
+        margin-top: 3rem;
+    }
+    
+    .order-form {
+        width: 70%;
+    }
+
+    .send-button,
+    .back-button {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .confirm-order-box {
+        width: 70%;
+        margin-top: 2.5rem;
+    }
+    
+    .order-form {
+        width: 55%;
+    }
+
+    .form-item {
+        width: 78%;
+    }
+
+    .send-button,
+    .back-button {
+        width: 65%;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .confirm-order-box {
+        width: 60%;
+        margin-top: 2.5rem;
+    }
+    
+    .order-form {
+        width: 50%;
+    }
+
+    .form-item {
+        width: 78%;
+    }
+
+    .send-button,
+    .back-button {
+        width: 60%;
+    }
+}

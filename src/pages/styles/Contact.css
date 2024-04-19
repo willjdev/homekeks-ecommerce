@@ -1,0 +1,235 @@
+.contact-container {
+    border: 1px solid blue;
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.left-contact {
+    width: 80%;
+    height: 44%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(85, 84, 84, 0.8);
+}
+
+.contact-data {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 68%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    gap: 20%;
+}
+
+.contact-data h1 {
+    text-align: center;
+    font-size: 1.42rem;
+}
+
+.contact-data h2 {
+    font-size: 1.12rem;
+    font-weight: 600;
+}
+
+.contact-data span {
+    font-weight: 500;
+}
+
+.contact-icons {
+    width: 100%;
+    height: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 14px;
+    gap: 5%;
+}
+
+.contact-icons svg {
+    width: 1.8rem;
+    height: 1.8rem;
+    color: black;
+}
+
+.right-contact {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.right-contact p {
+    font-size: 2.4rem;
+    text-align: center;
+    font-weight: 700;
+    color: #254494;
+    padding: 10px;
+}
+
+@media screen and (max-width: 320px) {
+    .left-contact {
+        height: 54%;
+    }
+    
+    .contact-icons svg {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    
+    .right-contact {
+        height: 34%;
+    }
+    
+    .right-contact p {
+        font-size: 1.81rem;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+    .contact-container {
+        height: 80%;
+    }
+    
+    .contact-box {
+        width: 90%;
+        height: 50%;
+        flex-direction: row;
+        border-radius: 20px;
+        /* border: 1px solid red; */
+        box-shadow: 0 0 10px rgba(85, 84, 84, 0.8);
+        background-color: #254494;
+    }
+    
+    .left-contact {
+        width: 52%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        /* border: 1px solid red; */
+        border-radius: 20px 40px 40px 20px;
+        background-color: #fff;
+        box-shadow: 0 0 0 0;
+        gap: 7%;
+    }
+    
+    .contact-data {
+        /* border: 1px solid red; */
+        padding-top: 0px;
+        height: 40%;
+        gap: 17%;
+    }
+    
+    .contact-data h1 {
+        font-size: 1.57rem;
+        margin-bottom: 5px;
+    }
+    
+    .contact-data h2 {
+        font-size: 1.25rem;
+    }
+    
+    .contact-icons {
+        height: 20%;
+        padding-bottom: 14px;
+        gap: 9%;
+    }
+    
+    .contact-icons svg {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+    
+    .right-contact {
+        width: 48%;
+        height: 100%;
+    }
+    
+    .right-contact p {
+        color: #fff;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .contact-box {
+        width: 78%;
+        height: 55%;
+        border-radius: 20px;
+    }
+    
+    .left-contact {
+        width: 52%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        /* border: 1px solid red; */
+        border-radius: 20px 34px 34px 20px;
+        background-color: #fff;
+        box-shadow: 0 0 0 0;
+        gap: 11%;
+    }
+    
+    .contact-data {
+        /* border: 1px solid red; */
+        padding-top: 0px;
+        height: 40%;
+        gap: 17%;
+    }
+    
+    .contact-data h1 {
+        font-size: 1.64rem;
+        margin-bottom: 18px;
+    }
+    
+    .contact-data h2 {
+        font-size: 1.18rem;
+    }
+    
+    .contact-icons {
+        height: 20%;
+        padding-bottom: 14px;
+        gap: 9%;
+    }
+    
+    .contact-icons svg {
+        width: 2.28rem;
+        height: 2.28rem;
+    }
+    
+    .right-contact {
+        width: 48%;
+        height: 100%;
+    }
+    
+    .right-contact p {
+        color: #fff;
+        font-size: 2.1rem;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    .contact-container {
+        height: 85%;
+    }
+}

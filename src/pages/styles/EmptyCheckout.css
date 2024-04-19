@@ -1,0 +1,68 @@
+.empty-container {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+    text-align: center;
+    padding: 10px;
+}
+
+.empty-container svg {
+    width: 5rem;
+    height: 5rem;
+    color: rgb(136, 136, 136);
+}
+
+.empty-container p {
+    font-size: 1.2rem;
+    color: rgb(136, 136, 136);
+}
+
+.empty-order-button {
+    height: 15%;
+    width: 7.2rem;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+}
+
+.empty-order-button button {
+    width: 100%;
+    height: 50%;
+    background-color: #254494;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 2px;
+    border: none;
+    transition: all 0.2s;
+}
+
+.empty-order-button button:hover {
+    cursor: pointer;
+}
+
+.empty-order-button button:active {
+    background-color: #3f62ba;
+
+}
+
+@media screen and (max-width: 320px) {
+    .empty-order-button {
+        height: 20%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .empty-order-button button {
+        height: 40%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .empty-order-button button {
+        height: 50%;
+    }
+}
