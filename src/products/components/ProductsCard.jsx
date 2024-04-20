@@ -48,7 +48,7 @@ export const ProductsCard = ({ product, handleAddCount, handleReduceCount, state
         <div className="product-card">
     
           <div className="product-img-container">
-            <img src="../../../public/Assets/Carrusel-1.jpg" alt="Product image" />
+            <img src="https://res.cloudinary.com/ds4ygend0/image/upload/v1713575502/Carrusel-5_zqhk2r.jpg" alt="Product image" />
           </div>
     
           <div className='product-data-container'>

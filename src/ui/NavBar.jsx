@@ -19,7 +19,7 @@ export const NavBar = ({ state }) => {
 
       {/* Logo */}
       <Link to={'/'} className="logo-box">
-        <img src="../../../public/Assets/Captura de pantalla 2024-03-18 190023.png" alt="logo" />
+        <img src="https://res.cloudinary.com/ds4ygend0/image/upload/v1713575502/Captura_de_pantalla_2024-03-18_190023_l9jcnw.png" alt="logo" />
       </Link>
 
       {/* Nav Items */}

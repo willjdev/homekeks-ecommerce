@@ -58,6 +58,7 @@
 
 .form-item textarea {
     width: 100%;
+    padding: 4px;
 }
 
 .form-item textarea:focus {

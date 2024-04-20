@@ -61,7 +61,7 @@ export const CompleteBuy = ({ state, total }) => {
         </div>
 
         <div className='form-item'>
-          <label htmlFor="phone">Telefono:</label>
+          <label htmlFor="phone">Teléfono:</label>
           <input 
             id="phone" 
             name="phone" 

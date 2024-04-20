@@ -14,11 +14,11 @@ useEffect(() => {
 }, [currentImageIndex]);
 
 const images = [
-  '../../../public/Assets/Carrusel-1.jpg',
-  '../../../public/Assets/Carrusel-2.jpg',
-  '../../../public/Assets/Carrusel-3.jpg',
-  '../../../public/Assets/Carrusel-4.jpg',
-  '../../../public/Assets/Carrusel-5.jpg',
+  'https://res.cloudinary.com/ds4ygend0/image/upload/v1713575502/Carrusel-1_dogvmu.jpg',
+  'https://res.cloudinary.com/ds4ygend0/image/upload/v1713575502/Carrusel-2_n3s0hn.jpg',
+  'https://res.cloudinary.com/ds4ygend0/image/upload/v1713575502/Carrusel-3_zqlgcn.jpg',
+  'https://res.cloudinary.com/ds4ygend0/image/upload/v1713575502/Carrusel-4_deqgvr.jpg',
+  'https://res.cloudinary.com/ds4ygend0/image/upload/v1713575502/Carrusel-5_zqhk2r.jpg',
 
 ]
 
